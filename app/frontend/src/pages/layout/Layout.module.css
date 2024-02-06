@@ -9,8 +9,9 @@
 }
 
 .header {
-    background-color: #222222;
-    color: #f2f2f2;
+    background-color: white;
+    color: #585858;
+    height: 70px;
 }
 
 .headerContainer {
@@ -25,12 +26,12 @@
     display: flex;
     align-items: center;
     margin-right: 40px;
-    color: #f2f2f2;
+    color: #585858;
     text-decoration: none;
 }
 
 .headerLogo {
-    height: 40px;
+    height: 60px;
 }
 
 .headerTitle {
@@ -45,7 +46,7 @@
 }
 
 .headerNavPageLink {
-    color: #f2f2f2;
+    color: #5d378f;
     text-decoration: none;
     opacity: 0.75;
 
@@ -59,7 +60,7 @@
 }
 
 .headerNavPageLinkActive {
-    color: #f2f2f2;
+    color: #5d378f;
     text-decoration: none;
 }
 
