@@ -252,11 +252,11 @@ const Chat = () => {
                         <div className={styles.chatEmptyState}>
                             <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
                             <h1 className={styles.chatEmptyStateTitle}>Have a conversation with your private data</h1>
-                            <span className={styles.chatEmptyObjectives}>
+                            {/* <span className={styles.chatEmptyObjectives}>
                                 The objective of the Information Assistant, built with Azure OpenAI, is to leverage a combination of AI components 
                                 to enable you to <b>Chat</b> (Have a conversation) with your own private data. You can use our <b>Upload</b> feature to begin adding your private data now. The Information Assistant attempts to provide responses that are:
-                            </span>
-                            <span className={styles.chatEmptyObjectivesList}>
+                            </span> */}
+                            {/* <span className={styles.chatEmptyObjectivesList}>
                                 <span className={styles.chatEmptyObjectivesListItem}>
                                     <ClockFilled fontSize={"40px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Clock icon" />
                                     <span className={styles.chatEmptyObjectivesListItemText}>Current: Based on the latest "up to date" information in your private data</span>
@@ -286,7 +286,7 @@ const Chat = () => {
                                 <i>Though the Accelerator is focused on the key areas above, human oversight to confirm accuracy is crucial. 
                                 All responses from the system must be verified with the citations provided. 
                                 The responses are only as accurate as the data provided.</i>
-                            </span>
+                            </span> */}
                             <h2 className={styles.chatEmptyStateSubtitle}>Ask anything or try an example</h2>
                             <ExampleList onExampleClicked={onExampleClicked} />
                         </div>
