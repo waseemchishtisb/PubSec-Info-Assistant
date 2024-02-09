@@ -24,6 +24,7 @@ import { ResponseTempButtonGroup } from "../../components/ResponseTempButtonGrou
 import { InfoContent } from "../../components/InfoContent/InfoContent";
 import { FolderPicker } from "../../components/FolderPicker";
 import { TagPickerInline } from "../../components/TagPicker";
+import ailogo from "../../assets/Frame 1000002154.png"
 
 const Chat = () => {
     const [isConfigPanelOpen, setIsConfigPanelOpen] = useState(false);
@@ -250,7 +251,8 @@ const Chat = () => {
                 <div className={styles.chatContainer}>
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
-                            <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" />
+                            {/* <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" /> */}
+                            <img src={ailogo} alt="Azure OpenAI"} />
                             <h1 className={styles.chatEmptyStateTitle}>Have a conversation with your private data</h1>
                             {/* <span className={styles.chatEmptyObjectives}>
                                 The objective of the Information Assistant, built with Azure OpenAI, is to leverage a combination of AI components 
