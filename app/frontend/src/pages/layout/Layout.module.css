@@ -32,17 +32,23 @@
 
 .headerLogo {
     height: 60px;
+    margin-left: 12px;
+    margin-top: 10px;
 }
 
 .headerTitle {
     margin-left: 12px;
     font-weight: 600;
+    font-size: 14px;
+    margin-top: 15px;
 }
 
 .headerNavList {
     display: flex;
     list-style: none;
     padding-left: 0;
+    margin-top: 15px;
+
 }
 
 .headerNavPageLink {
@@ -50,7 +56,6 @@
     text-decoration: none;
     opacity: 0.75;
     font-weight: bolder;
-
     transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
     transition-duration: 500ms;
     transition-property: opacity;

@@ -15,8 +15,8 @@ const Layout = () => {
             <header className={styles.header} role={"banner"}>
                 <WarningBanner />
                 <div className={styles.headerContainer}>
+                <img src={veraqor} alt="Azure OpenAI" className={styles.headerLogo} />
                     <div className={styles.headerTitleContainer}>
-                        <img src={veraqor} alt="Azure OpenAI" className={styles.headerLogo} />
                         <h3 className={styles.headerTitle}><Title/></h3>
                         {/* <h3>Veraqor Information Assistant</h3> */}
                     </div>
