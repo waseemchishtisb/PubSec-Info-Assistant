@@ -104,7 +104,8 @@ openai.api_key = AZURE_OPENAI_SERVICE_KEY
 # Set up clients for Cognitive Search and Storage
 search_client = SearchClient(
     endpoint=AZURE_SEARCH_SERVICE_ENDPOINT,
-    index_name=['AZURE_SEARCH_INDEX','AZURE_SEARCH_INDEX'],
+    # index_name=['AZURE_SEARCH_INDEX','AZURE_SEARCH_INDEX1'],
+    index_name=AZURE_SEARCH_INDEX,
     credential=azure_search_key_credential,
 )
 blob_client = BlobServiceClient(
