@@ -254,7 +254,8 @@ const Chat = () => {
                     {!lastQuestionRef.current ? (
                         <div className={styles.chatEmptyState}>
                             {/* <SparkleFilled fontSize={"120px"} primaryFill={"rgba(115, 118, 225, 1)"} aria-hidden="true" aria-label="Chat logo" /> */}
-                            <img src={ailogo2} alt="Azure OpenAI"/>
+                            <div className={styles.img}>
+                            <img src={ailogo2} alt="Azure OpenAI"/></div>
                             <h1 className={styles.chatEmptyStateTitle}>Have a conversation with your private data</h1>
                             {/* <span className={styles.chatEmptyObjectives}>
                                 The objective of the Information Assistant, built with Azure OpenAI, is to leverage a combination of AI components 
@@ -338,7 +339,7 @@ const Chat = () => {
                     <div className={styles.chatInput}>
                         <QuestionInput
                             clearOnSend
-                            placeholder="Type a new question (e.g. Who are Microsoft's top executives, provided as a table?)"
+                            placeholder="Type a new question (e.g. What perks and benefits Veraqor, provided as a table?)"
                             disabled={isLoading}
                             onSend={question => makeApiRequest(question)}
                             onAdjustClick={() => setIsConfigPanelOpen(!isConfigPanelOpen)}
