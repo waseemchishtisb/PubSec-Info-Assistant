@@ -24,7 +24,9 @@ import { ResponseTempButtonGroup } from "../../components/ResponseTempButtonGrou
 import { InfoContent } from "../../components/InfoContent/InfoContent";
 import { FolderPicker } from "../../components/FolderPicker";
 import { TagPickerInline } from "../../components/TagPicker";
-import ailogo from "../../assets/Frame 1000002154.png"
+// import ailogo from "../../assets/Frame 1000002154.png"
+import ailogo2 from "../../assets/braing-2-01.png"
+
 
 const Chat = () => {
     const [isConfigPanelOpen, setIsConfigPanelOpen] = useState(false);
