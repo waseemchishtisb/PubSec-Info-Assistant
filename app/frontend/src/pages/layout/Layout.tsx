@@ -22,11 +22,14 @@ const Layout = () => {
                     </div>
                     <nav>
                         <ul className={styles.headerNavList}>
-                            <li>
+                   
+                            <button type="button" className={styles.button1}>
+                            {/* <li> */}
+                        
                                 <NavLink to="/" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
                                     Chat
                                 </NavLink>
-                            </li>
+                                </button>
                             <li className={styles.headerNavLeftMargin}>
                                 <NavLink to="/content" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
                                     Manage Content

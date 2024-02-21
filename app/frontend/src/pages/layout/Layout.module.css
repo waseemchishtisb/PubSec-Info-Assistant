@@ -108,3 +108,19 @@
     padding-bottom: 6px;
     white-space: pre-line;
 }
+
+.button1 {
+    margin-left: 20px;
+    background-color: #5d378f;
+    color: white;
+    border: 2px solid;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 8px 12px;
+    /* font-weight: bold; */
+}
+
+.button1:hover {
+    background-color: #008cba;
+    color: white;
+}
