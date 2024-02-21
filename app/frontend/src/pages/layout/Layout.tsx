@@ -30,11 +30,14 @@ const Layout = () => {
                                     Chat
                                 </NavLink>
                                 </button>
+                                <button type="button" className={styles.button1}>
                             <li className={styles.headerNavLeftMargin}>
+                                            <button type="button" className={styles.button1}>
                                 <NavLink to="/content" className={({ isActive }) => (isActive ? styles.headerNavPageLinkActive : styles.headerNavPageLink)}>
                                     Manage Content
                                 </NavLink>
                             </li>
+                            </button>
                         </ul>
                     </nav>
                 </div>

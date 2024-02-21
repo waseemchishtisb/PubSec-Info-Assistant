@@ -52,7 +52,7 @@
 }
 
 .headerNavPageLink {
-    color: #5d378f;
+    color: white;
     text-decoration: none;
     opacity: 0.75;
     font-weight: bolder;
@@ -66,7 +66,7 @@
 }
 
 .headerNavPageLinkActive {
-    color: #5d378f;
+    color: white;
     text-decoration: none;
 }
 
